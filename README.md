@@ -1,21 +1,31 @@
 # Jireh's Developer Portfolio
 
-Responsive static portfolio built with HTML, CSS, and vanilla JavaScript. No package installation or build step is required.
-
-## Before publishing
-- Confirm the displayed name, **Jireh Ochygole Samuel**.
-- Replace `ADD-YOUR-EMAIL@example.com` in `index.html` with an email address you are comfortable publishing, or remove that email link.
-- Review the project descriptions and links; keep each description aligned with the current state of the repository.
-- Add LinkedIn or other professional links if you want them shown.
+A responsive personal developer portfolio built with HTML, CSS, and vanilla JavaScript. It introduces my learning journey, skills, selected projects, and interest in full-stack development and defensive cybersecurity.
 
 ## Preview locally
-Open `index.html` in a browser.
+
+Open `index.html` in a browser. No package installation or build step is required.
 
 ## Publish with GitHub Pages
-1. Create a repository named `jireh7521.github.io` (or use an existing portfolio repository).
-2. Upload `index.html`, `styles.css`, `script.js`, and `README.md` to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. GitHub Pages will display the published site URL in the Pages settings.
 
-Google Fonts are used when online; system fallbacks are provided.
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
+
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, choose **GitHub Actions** as the source.
+3. Push to `main` or run **Deploy portfolio to GitHub Pages** from the Actions tab.
+4. Once the workflow succeeds, the site will be available at:
+
+   https://jireh7521.github.io/jireh-developer-portfolio/
+
+## Contact
+
+- GitHub: https://github.com/Jireh7521
+- Email: samueljireh752@gmail.com
+
+## Technology
+
+- HTML5
+- CSS3, including responsive layouts and reduced-motion support
+- Vanilla JavaScript
+
+The site uses Google Fonts when an internet connection is available and falls back to system fonts otherwise.
